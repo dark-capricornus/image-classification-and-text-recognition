@@ -1,0 +1,59 @@
+# Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+*.venv
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# Flask specific
+instance/
+config.py
+*.sqlite3
+
+# Logs and debug files
+*.log
+*.pot
+*.pid
+
+# MacOS specific files
+.DS_Store
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Byte-compiled and dynamic libraries
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Static files cache
+static/cache/
+
+# Tests and coverage reports
+.coverage
+*.cover
+*.pyc
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Environment Variables
+.env
+.env.*
